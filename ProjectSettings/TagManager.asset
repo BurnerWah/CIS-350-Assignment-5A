@@ -42,8 +42,14 @@ TagManager:
   - name: Background
     uniqueID: 131982245
     locked: 0
+  - name: Platforms
+    uniqueID: 1160657099
+    locked: 0
   - name: Main
     uniqueID: 1907945055
+    locked: 0
+  - name: Plants
+    uniqueID: 1031621039
     locked: 0
   - name: Default
     uniqueID: 0
