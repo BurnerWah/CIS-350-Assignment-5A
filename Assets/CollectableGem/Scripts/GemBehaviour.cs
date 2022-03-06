@@ -28,6 +28,7 @@ public class GemBehaviour : MonoBehaviour {
     }
 
     void GemCollected() {
+        GameObject.Find("/ScoreManager").GetComponent<ScoreUtil>().AddPoint();
         gemCollider2D.enabled = false;
         gemVisuals.SetActive(false);
         collectedParticleSystem.SetActive(true);
